@@ -1,0 +1,22 @@
+{
+  "data_kind": "illustrative",
+  "max_attempts": 3,
+  "events": [
+    {
+      "status": "timeout",
+      "reported_cost": null
+    },
+    {
+      "status": "error",
+      "reported_cost": null
+    }
+  ],
+  "fallback": {
+    "status": "ok",
+    "reported_cost": null,
+    "payload": {
+      "text": "合成回退结果；未调用模型或执行任务",
+      "needs_human_verification": true
+    }
+  }
+}
